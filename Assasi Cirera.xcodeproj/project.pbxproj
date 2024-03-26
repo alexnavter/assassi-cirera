@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3B9E1862BB324F2008CA829 /* Assasi_CireraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9E1852BB324F2008CA829 /* Assasi_CireraApp.swift */; };
+		E3B9E1882BB324F2008CA829 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9E1872BB324F2008CA829 /* ContentView.swift */; };
+		E3B9E18A2BB324F5008CA829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1892BB324F5008CA829 /* Assets.xcassets */; };
+		E3B9E18D2BB324F5008CA829 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E18C2BB324F5008CA829 /* Preview Assets.xcassets */; };
+		E3B9E1942BB3434D008CA829 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9E1932BB3434D008CA829 /* SplashScreenView.swift */; };
+		E3B9E19C2BB34BE5008CA829 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9E19B2BB34BE5008CA829 /* ContainerView.swift */; };
+		E3B9E1A62BB354FB008CA829 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E19E2BB354FA008CA829 /* TitilliumWeb-Regular.ttf */; };
+		E3B9E1A72BB354FB008CA829 /* CircularStd-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E19F2BB354FA008CA829 /* CircularStd-Medium.otf */; };
+		E3B9E1A82BB354FB008CA829 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A02BB354FA008CA829 /* TitilliumWeb-SemiBold.ttf */; };
+		E3B9E1A92BB354FB008CA829 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A12BB354FA008CA829 /* TitilliumWeb-Black.ttf */; };
+		E3B9E1AA2BB354FB008CA829 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A22BB354FA008CA829 /* TitilliumWeb-Bold.ttf */; };
+		E3B9E1AB2BB354FB008CA829 /* CircularStd-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A32BB354FA008CA829 /* CircularStd-Black.otf */; };
+		E3B9E1AC2BB354FB008CA829 /* CircularStd-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A42BB354FB008CA829 /* CircularStd-Bold.otf */; };
+		E3B9E1AD2BB354FB008CA829 /* CircularStd-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1A52BB354FB008CA829 /* CircularStd-Book.otf */; };
+		E3B9E1AF2BB3561E008CA829 /* LilitaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B9E1AE2BB3561E008CA829 /* LilitaOne-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3B9E1822BB324F2008CA829 /* Assasi Cirera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assasi Cirera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B9E1852BB324F2008CA829 /* Assasi_CireraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assasi_CireraApp.swift; sourceTree = "<group>"; };
+		E3B9E1872BB324F2008CA829 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3B9E1892BB324F5008CA829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B9E18C2BB324F5008CA829 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3B9E1932BB3434D008CA829 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E3B9E19A2BB347FD008CA829 /* Assasi-Cirera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Assasi-Cirera-Info.plist"; sourceTree = SOURCE_ROOT; };
+		E3B9E19B2BB34BE5008CA829 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		E3B9E19E2BB354FA008CA829 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		E3B9E19F2BB354FA008CA829 /* CircularStd-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Medium.otf"; sourceTree = "<group>"; };
+		E3B9E1A02BB354FA008CA829 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		E3B9E1A12BB354FA008CA829 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		E3B9E1A22BB354FA008CA829 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		E3B9E1A32BB354FA008CA829 /* CircularStd-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Black.otf"; sourceTree = "<group>"; };
+		E3B9E1A42BB354FB008CA829 /* CircularStd-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Bold.otf"; sourceTree = "<group>"; };
+		E3B9E1A52BB354FB008CA829 /* CircularStd-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CircularStd-Book.otf"; sourceTree = "<group>"; };
+		E3B9E1AE2BB3561E008CA829 /* LilitaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LilitaOne-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3B9E17F2BB324F2008CA829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3B9E1792BB324F2008CA829 = {
+			isa = PBXGroup;
+			children = (
+				E3B9E1842BB324F2008CA829 /* Assasi Cirera */,
+				E3B9E1832BB324F2008CA829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3B9E1832BB324F2008CA829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9E1822BB324F2008CA829 /* Assasi Cirera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3B9E1842BB324F2008CA829 /* Assasi Cirera */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9E19A2BB347FD008CA829 /* Assasi-Cirera-Info.plist */,
+				E3B9E1852BB324F2008CA829 /* Assasi_CireraApp.swift */,
+				E3B9E19D2BB35467008CA829 /* Views */,
+				E3B9E1892BB324F5008CA829 /* Assets.xcassets */,
+				E3B9E1952BB346ED008CA829 /* Fonts */,
+				E3B9E18B2BB324F5008CA829 /* Preview Content */,
+			);
+			path = "Assasi Cirera";
+			sourceTree = "<group>";
+		};
+		E3B9E18B2BB324F5008CA829 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9E18C2BB324F5008CA829 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E3B9E1952BB346ED008CA829 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9E1A32BB354FA008CA829 /* CircularStd-Black.otf */,
+				E3B9E1A42BB354FB008CA829 /* CircularStd-Bold.otf */,
+				E3B9E1A52BB354FB008CA829 /* CircularStd-Book.otf */,
+				E3B9E19F2BB354FA008CA829 /* CircularStd-Medium.otf */,
+				E3B9E1A12BB354FA008CA829 /* TitilliumWeb-Black.ttf */,
+				E3B9E1A22BB354FA008CA829 /* TitilliumWeb-Bold.ttf */,
+				E3B9E19E2BB354FA008CA829 /* TitilliumWeb-Regular.ttf */,
+				E3B9E1A02BB354FA008CA829 /* TitilliumWeb-SemiBold.ttf */,
+				E3B9E1AE2BB3561E008CA829 /* LilitaOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E3B9E19D2BB35467008CA829 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3B9E19B2BB34BE5008CA829 /* ContainerView.swift */,
+				E3B9E1872BB324F2008CA829 /* ContentView.swift */,
+				E3B9E1932BB3434D008CA829 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3B9E1812BB324F2008CA829 /* Assasi Cirera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B9E1902BB324F5008CA829 /* Build configuration list for PBXNativeTarget "Assasi Cirera" */;
+			buildPhases = (
+				E3B9E17E2BB324F2008CA829 /* Sources */,
+				E3B9E17F2BB324F2008CA829 /* Frameworks */,
+				E3B9E1802BB324F2008CA829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assasi Cirera";
+			productName = "Assasi Cirera";
+			productReference = E3B9E1822BB324F2008CA829 /* Assasi Cirera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3B9E17A2BB324F2008CA829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E3B9E1812BB324F2008CA829 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E3B9E17D2BB324F2008CA829 /* Build configuration list for PBXProject "Assasi Cirera" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3B9E1792BB324F2008CA829;
+			productRefGroup = E3B9E1832BB324F2008CA829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3B9E1812BB324F2008CA829 /* Assasi Cirera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3B9E1802BB324F2008CA829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B9E1A72BB354FB008CA829 /* CircularStd-Medium.otf in Resources */,
+				E3B9E18D2BB324F5008CA829 /* Preview Assets.xcassets in Resources */,
+				E3B9E1AF2BB3561E008CA829 /* LilitaOne-Regular.ttf in Resources */,
+				E3B9E1AD2BB354FB008CA829 /* CircularStd-Book.otf in Resources */,
+				E3B9E1AA2BB354FB008CA829 /* TitilliumWeb-Bold.ttf in Resources */,
+				E3B9E1AB2BB354FB008CA829 /* CircularStd-Black.otf in Resources */,
+				E3B9E1AC2BB354FB008CA829 /* CircularStd-Bold.otf in Resources */,
+				E3B9E1A92BB354FB008CA829 /* TitilliumWeb-Black.ttf in Resources */,
+				E3B9E1A62BB354FB008CA829 /* TitilliumWeb-Regular.ttf in Resources */,
+				E3B9E1A82BB354FB008CA829 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				E3B9E18A2BB324F5008CA829 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3B9E17E2BB324F2008CA829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B9E1882BB324F2008CA829 /* ContentView.swift in Sources */,
+				E3B9E19C2BB34BE5008CA829 /* ContainerView.swift in Sources */,
+				E3B9E1862BB324F2008CA829 /* Assasi_CireraApp.swift in Sources */,
+				E3B9E1942BB3434D008CA829 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E3B9E18E2BB324F5008CA829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3B9E18F2BB324F5008CA829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3B9E1912BB324F5008CA829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assasi Cirera/Preview Content\"";
+				DEVELOPMENT_TEAM = S5C9P9793H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assasi-Cirera-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexnavter.Assasi-Cirera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B9E1922BB324F5008CA829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assasi Cirera/Preview Content\"";
+				DEVELOPMENT_TEAM = S5C9P9793H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Assasi-Cirera-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexnavter.Assasi-Cirera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3B9E17D2BB324F2008CA829 /* Build configuration list for PBXProject "Assasi Cirera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B9E18E2BB324F5008CA829 /* Debug */,
+				E3B9E18F2BB324F5008CA829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B9E1902BB324F5008CA829 /* Build configuration list for PBXNativeTarget "Assasi Cirera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B9E1912BB324F5008CA829 /* Debug */,
+				E3B9E1922BB324F5008CA829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3B9E17A2BB324F2008CA829 /* Project object */;
+}
